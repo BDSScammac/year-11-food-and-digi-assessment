@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+    <title>Year 11 food tech home page</title>
+</head>
+<body>
+  <div id="main">
+  <span style="font-size:60px;cursor:pointer; color: white;" onclick="openNav()">&#9776;</span>
+</div>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html">home</a>
+    <a href="egg.html">egg on toast</a>
+    <a href="jellies.html">jellies</a>
+    <a href="blini.html">blini</a>
+    <a href="cucumber.html">cucumber canapes</a>
+    <a href="about.html">about</a>
+  </div>
+
+  <div class="parallax">
+  <h1>Year 11 food tech home page</h1></div>
+
+  <div style="height:1000px;background-color:#c8f1f7;font-size:36px">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque habitant morbi tristique senectus. Sit amet est placerat in egestas erat imperdiet. Enim neque volutpat ac tincidunt vitae semper quis. Pharetra massa massa ultricies mi quis hendrerit dolor.
+<div class="row">
+<img src="image/egg.jpg" alt="egg"><img src="image/jellies.jpg" alt="jellies"><img src="image/blini.jpg" alt="blini">
+</div>
+  <div class="row">
+<div class="item"><p>this is a egg on toast breakfast<br>it is a vegitarian optian and your can have gluten free toast if you wish</p></div>
+<div class="item"><p> this is a jellie delight desert<br>they are water melon flavored and the eggs are free range</p></div>
+<div class="item"><p> this is a blini snack<br> it has sustainably sourced slamon and dairy free cream cheese</p></div>
+
+  </div>
+
+<div class="parallax"></div>
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+</div>
+</body>
+</html>
